@@ -4,7 +4,7 @@ import './index.css';
 import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import Showcase from './Components/Showcase';
-// import Footer from './Components/Footer';
+import Footer from './Components/Footer';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,7 +13,7 @@ root.render(
     <NavBar />
     <Main />
     <Showcase />
-    {/* <Footer /> */}
+    <Footer />
   </React.StrictMode>
 );
 
