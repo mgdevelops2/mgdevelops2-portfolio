@@ -13,25 +13,31 @@ function Footer() {
                                     <p class="small text-muted mb-0">&copy; Copyrights. All rights reserved. <a class="text-primary" href="#">Bootstrapious.com</a></p>
                                 </div>
                                 <div class="col-lg-2 col-md-6">
-
-                                </div>
-                                <div class="col-lg-2 col-md-6">
-                                    <h5 class="text-dark mb-3">Quick links</h5>
+                                    {/* <h5 class="text-dark mb-3">Quick links</h5>
                                     <ul class="list-unstyled text-muted">
                                         <li><a href="#">Home</a></li>
                                         <li><a href="#">About</a></li>
                                         <li><a href="#">Get started</a></li>
                                         <li><a href="#">FAQ</a></li>
+                                    </ul> */}
+                                </div>
+                                <div class="col-lg-2 col-md-6">
+                                    <h5 class="text-dark mb-3">Follow Me!</h5>
+                                    <ul class="list-unstyled">
+                                        <li><a href="#"><i class="bi bi-github"></i>Github</a></li>
+                                        <li><a href="#"><i class="bi bi-linkedin"></i>LinkedIn</a></li>
+                                        <li><a href="#"><i class="bi bi-twitter"></i>Twitter</a></li>
                                     </ul>
                                 </div>
                                 <div class="col-lg-2 col-md-6">
-                                    <h5 class="text-dark mb-3">Quick links</h5>
-                                    <ul class="list-unstyled text-muted">
-                                        <li><a href="#"><i class="bi bi-github"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
-                                        <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-                                    </ul>
+                                    <div class="card border-primary mb-3" >
+                                        <div class="card-body text-primary">
+                                            <h5 class="card-text">Have an idea you want developed?</h5>
+                                            <a class="btn btn-primary btn-lg" href="#" role="button">Hire Me!</a>
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                     </footer>

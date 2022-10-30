@@ -2,6 +2,8 @@ function Showcase() {
     return (
         <div class="container border">
             <div class="container bg-light my-5 border" >
+                <h1>hi</h1>
+                <p>hi</p>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card">
@@ -31,6 +33,8 @@ function Showcase() {
                         </div>
                     </div>
                 </div>
+                <div class="container text-center my-3"><a class="btn btn-primary btn-lg" href="#" role="button">View all works</a></div>
+
             </div >
         </div >
     );
