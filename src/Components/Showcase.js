@@ -14,7 +14,7 @@ function Showcase() {
                 <div class="container px-4 py-5" id="custom-cards">
                     <h1>Recent Work</h1>
                     <hr></hr>
-                    <p>These are some of the projects I've worked on or am currently working on - they showcase my design and development skills and sometimes both. Some of the technologies I work with are: <i class="fab bi-filetype-html fs-4 text-primary">,</i> <i class="fab fa-css3-alt fs-4 text-primary">,</i> <i class="fab fa-js-square fs-4 text-primary">,</i> <i class="fab fa-bootstrap fs-4 text-primary">,</i> <i class="fab fa-react fs-4 text-primary">,</i> <i class="fab fa-node fs-4 text-primary">,</i> <i class="fab fa-sass fs-4 text-primary">,</i> <i class="fab fa-wix fs-4 text-primary">, and</i> <i class="fab fa-wordpress fs-4 text-primary">.</i>
+                    <p>These are some of my favorite projects. Click the All works button to see everything I have built.
                     </p>
 
                     <div class="row row-cols-1 row-cols-md-3 g-4">
