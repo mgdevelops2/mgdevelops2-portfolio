@@ -5,6 +5,8 @@ import NavBar from './Components/NavBar';
 import Main from './Components/Main';
 import Showcase from './Components/Showcase';
 import Footer from './Components/Footer';
+import BlogHighlight from './Components/BlogHighlight';
+
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -13,6 +15,7 @@ root.render(
     <NavBar />
     <Main />
     <Showcase />
+    <BlogHighlight />
     <Footer />
   </React.StrictMode>
 );
