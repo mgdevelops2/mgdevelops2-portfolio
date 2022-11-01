@@ -12,10 +12,9 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home";
-import Blog from "./Components/Blog/Blog";
+// import Blog from "./Components/Blog/Blog";
 import Portfolio from "./Components/Portfolio/Portfolio";
-import Design from "./Components/Services/Design";
-import WebDev from "./Components/Services/WebDevelopment";
+import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 
 export default function BasicExample() {
@@ -32,10 +31,9 @@ export default function BasicExample() {
         */}
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/blog" element={<Blog />}></Route>
+          {/* <Route exact path="/blog" element={<Blog />}></Route> */}
           <Route exact path="/portfolio" element={<Portfolio />}></Route>
-          <Route exact path="/design" element={<Design />}></Route>
-          <Route exact path="/web-development" element={<WebDev />}></Route>
+          <Route exact path="/services" element={<Services />}></Route>
           <Route exact path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer />

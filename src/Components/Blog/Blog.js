@@ -3,7 +3,7 @@ import BlogHighlight from "./BlogHighlight";
 function Blog() {
   return (
     // <div class="container my-5">
-    //     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+    //     <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-4 border shadow-lg">
     //         <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
 
     //         </div>
@@ -12,7 +12,7 @@ function Blog() {
 
     <div class="container my-5">
       <BlogHighlight />
-      <div class="container bg-light my-5 border rounded-3 shadow-lg">
+      <div class="container bg-light my-5 border rounded-4 shadow-lg">
         <div class="container px-4 py-5" id="custom-cards">
           <h1 class="pb-2 border-bottom">Custom cards</h1>
 

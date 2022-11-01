@@ -1,12 +1,12 @@
-import Hero from "./Hero";
+import LandingHero from "./LandingHero/LandingHero";
 import Showcase from "./Portfolio/Showcase";
-import Blog from "./Blog/Blog";
+// import BlogHighlight from "./Blog/BlogHighlight";
 function Home() {
   return (
     <div>
-      <Hero />
+      <LandingHero />
       <Showcase />
-      <Blog />
+      {/* <BlogHighlight /> */}
     </div>
   );
 }

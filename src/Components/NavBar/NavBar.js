@@ -30,17 +30,22 @@ function NavBar() {
                 Home
               </a>
             </li>
-            <li class="nav-item">
+            {/* <li class="nav-item">
               <a class="nav-link mx-2" href="/blog">
                 Blog
               </a>
-            </li>
+            </li> */}
             <li class="nav-item">
               <a class="nav-link mx-2" href="/portfolio">
                 Portfolio
               </a>
             </li>
-            <li class="nav-item dropdown">
+            {/* <li class="nav-item">
+              <a class="nav-link mx-2" href="/services">
+                Services
+              </a>
+            </li> */}
+            {/* <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -71,14 +76,19 @@ function NavBar() {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
             <li class="nav-item">
               <a class="nav-link mx-2" href="/contact">
                 Contact
               </a>
             </li>
             <li class="nav-item ms-3">
-              <a class="btn btn-outline-secondary" href="#!">
+              <a
+                class="btn btn-outline-secondary"
+                href="#"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Resume
               </a>
             </li>
