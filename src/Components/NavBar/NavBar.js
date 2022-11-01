@@ -1,4 +1,4 @@
-import Logo from "../Assets/Logo.png";
+import Logo from "../../Assets/Logo.png";
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm my-1">

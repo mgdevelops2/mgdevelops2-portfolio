@@ -35,8 +35,8 @@ function Hero() {
             Front-End Developer | Web Designer | Content Creator
           </h5>
           <p class="lead">
-            I love to learn new tech, and have been known to build a few things
-            that live on the internet. Some of the technologies I work with are:{" "}
+            I love to learn new tech, and I build things that live on the
+            internet. Some of the technologies I work with are:{" "}
             <i class="fab bi-filetype-html fs-4 text-primary">,</i>{" "}
             <i class="fab fa-css3-alt fs-4 text-primary">,</i>{" "}
             <i class="fab fa-js-square fs-4 text-primary">,</i>{" "}

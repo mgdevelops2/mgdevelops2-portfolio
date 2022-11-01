@@ -9,14 +9,14 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 // through the site. This preserves the browser history,
 // making sure things like the back button and bookmarks
 // work properly.
-import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
+import NavBar from "./Components/NavBar/NavBar";
+import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home";
-import Blog from "./Components/Blog";
-import Portfolio from "./Components/Portfolio";
-import Design from "./Components/Design";
-import WebDev from "./Components/WebDevelopment";
-import Contact from "./Components/Contact";
+import Blog from "./Components/Blog/Blog";
+import Portfolio from "./Components/Portfolio/Portfolio";
+import Design from "./Components/Services/Design";
+import WebDev from "./Components/Services/WebDevelopment";
+import Contact from "./Components/Contact/Contact";
 
 export default function BasicExample() {
   return (

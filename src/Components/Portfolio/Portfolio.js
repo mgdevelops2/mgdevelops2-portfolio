@@ -1,6 +1,6 @@
-import Hero from "./Hero";
+import Hero from "../Hero";
 import Showcase from "./Showcase";
-import Blog from "./BlogHighlight";
+import Blog from "../Blog/BlogHighlight";
 function Home() {
   return (
     <main class="container my-5">
