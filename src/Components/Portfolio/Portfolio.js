@@ -4,112 +4,390 @@ function Home() {
     <main class="container my-5">
       <Showcase />
       <div class="container marketing">
-        {/* <!-- Three columns of text below the carousel --> */}
-
-        {/* <!-- /.row --> */}
-
         {/* <!-- START THE FEATURETTES --> */}
 
-        <hr class="featurette-divider" />
-
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
-              First featurette heading.
-              <span class="text-muted">It’ll blow your mind.</span>
-            </h2>
-            <p class="lead">
-              Some great placeholder content for the first featurette here.
-              Imagine some exciting prose here.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-4 shadow-lg"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
-          </div>
-        </div>
-
-        <hr class="featurette-divider" />
-
+        {/* Left side image example */}
+        {/* <hr class="featurette-divider" />
         <div class="row featurette">
           <div class="col-md-7 order-md-2">
             <h2 class="featurette-heading fw-normal lh-1">
-              Oh yeah, it’s that good.
-              <span class="text-muted">See for yourself.</span>
+              descriptive title <span class="text-muted">project title</span>
             </h2>
+            <p class="lead">short bio</p>
             <p class="lead">
-              Another featurette? Of course. More placeholder content here to
-              give you an idea of how this layout would work with some actual
-              real-world content in place.
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/README-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/README-generator{" "}
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mgdevelops2.github.io/simpleQuiz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SimpleQuiz
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-calendar-week-fill"></i> Build Date:
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-4 shadow-lg"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/184140211-9c05f911-1ac7-4a54-bc88-191432f4d674.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
           </div>
-        </div>
+        </div> */}
+        {/* Left side image example */}
 
-        <hr class="featurette-divider" />
+        {/* right side image example */}
+        {/* <hr class="featurette-divider" />
 
         <div class="row featurette">
           <div class="col-md-7">
             <h2 class="featurette-heading fw-normal lh-1">
-              And lastly, this one. <span class="text-muted">Checkmate.</span>
+              desctiptive title, <span class="text-muted">project title</span>
             </h2>
+            <p class="lead">Short bio</p>
             <p class="lead">
-              And yes, this is the last block of representative placeholder
-              content. Again, not really intended to be actually read, simply
-              here to give you a better view of what this would look like with
-              some actual content. Your content.
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                #
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/rockPaperScissors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                #{" "}
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mgdevelops2.github.io/rockPaperScissors/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                #
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-calendar-week-fill"></i> Build Date:
             </p>
           </div>
           <div class="col-md-5">
-            <svg
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-4 shadow-lg"
-              width="500"
-              height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
-              <title>Placeholder</title>
-              <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">
-                500x500
-              </text>
-            </svg>
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="#"
+              alt="Ph"
+              loading="lazy"
+            ></img>
+          </div>
+        </div> */}
+        {/* Right side image example */}
+
+        {/* L - Note Taker*/}
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              You takes notes right,{" "}
+              <span class="text-muted">Just Another Text Editor</span>
+            </h2>
+            <p class="lead">
+              {" "}
+              This is a really cool text editor that runs in the browser as a
+              single page app. It falls under Progressive Web App (PWA)
+              standards - using HTML, CSS, JS, JSON and Heroku for deployment.
+            </p>
+            <p class="lead">
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/hW19-pwaTextEditor"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/hW19-pwaTextEditor{" "}
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mg-texteditor.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Just Another Text Editor
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/199593025-8958907c-45d7-4032-9366-91e5d208fddb.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
           </div>
         </div>
+        {/* L - Note Taker */}
+
+        {/* R - Rock paper scissors */}
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              2nd game, <span class="text-muted">RockPaperScissors</span>
+            </h2>
+            <p class="lead">
+              When my girlfriend and I can't decide who gets to pick date night
+              dinner, we always choose to resolve our dispute over a game of
+              RPS, so I decided to build one verse a computer.
+            </p>
+            <p class="lead">
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/rockPaperScissors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/rockPaperScissors
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mgdevelops2.github.io/rockPaperScissors/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                rockPaperScissors
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/199552279-ea369a37-1ca9-49d1-9204-0ecb62333524.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
+          </div>
+        </div>
+        {/* R - Rock paper scissors */}
+
+        {/* L - Readme Generator */}
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Read me files are a pain!{" "}
+              <span class="text-muted">readme Generator</span>
+            </h2>
+            <p class="lead">
+              Let's be honest here! If you are a developer at some point you've
+              had to write code for a readme file at some point, and chances are
+              you probably didn't think it was the fun part of coding. This aims
+              to rid us of that burden and give us command-line prompt that will
+              auto-fill a readme file for you.
+            </p>
+            <p class="lead">
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/README-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/README-generator{" "}
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://github.com/mgdevelops2/README-generator#readme"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/README-generator#readme
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/184140211-9c05f911-1ac7-4a54-bc88-191432f4d674.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
+          </div>
+        </div>
+        {/* L - Readme Generator */}
+
+        {/* R - simpleQuiz */}
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              My 1st working game <span class="text-muted">simpleQuiz</span>
+            </h2>
+            <p class="lead">
+              As the name suggest, this is a simple quiz - that is timed and
+              made up of multiple choice questions. The app will run in the
+              browser and will feature HTML and CSS that is updated dynamically
+              by JavaScript - and with a clean, elegant and efficient user
+              interface.
+            </p>
+            <p class="lead">
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                mgdevelops2/simpleQuiz
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mgdevelops2.github.io/simpleQuiz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SimpleQuiz
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/176970458-4ecbd011-fc0c-4ea5-a47a-60f6612a2bad.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
+          </div>
+        </div>
+        {/* R - simpleQuiz */}
+
+        {/* L - 1st portfolio */}
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Don't judge me by my,{" "}
+              <span class="text-muted">1st portfolio. </span>
+            </h2>
+            <p class="lead">
+              Like I said this is my firt portfolio, built with vanilla
+              JavaScript. It was built with very basic understanding of design
+              concepts and a lot of inspiration from developers I admiere.{" "}
+            </p>
+            <p class="lead">
+              <i class="bi bi-tools"></i> Tools/Tech:{" "}
+              <a href="#" target="_blank" rel="noreferrer">
+                dsad
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-git"></i> Repo:{" "}
+              <a
+                href="https://github.com/mgdevelops2/README-generator"
+                target="_blank"
+                rel="noreferrer"
+              >
+                mgdevelops2/README-generator{" "}
+              </a>
+            </p>
+            <p class="lead">
+              {" "}
+              <i class="bi bi-link fs-4"></i> Website:{" "}
+              <a
+                href="https://mgdevelops2.github.io/simpleQuiz/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SimpleQuiz
+              </a>
+            </p>
+            <p class="lead">
+              <i class="bi bi-youtube"></i> Video:
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="card-img-top rounded-4 border border-dark shadow-lg"
+              src="https://user-images.githubusercontent.com/98365942/199589198-637c5536-a5c3-4edf-951f-4cf253294569.png"
+              alt="Ph"
+              loading="lazy"
+            ></img>
+          </div>
+        </div>
+        {/* L - 1st portfolio */}
 
         {/* <!-- /END THE FEATURETTES --> */}
       </div>
