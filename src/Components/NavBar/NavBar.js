@@ -1,4 +1,7 @@
+// import your necessary components.
 import Logo from "../../Assets/Logo.png";
+
+// function for component
 function NavBar() {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top shadow-sm my-1">
@@ -40,43 +43,6 @@ function NavBar() {
                 Portfolio
               </a>
             </li>
-            {/* <li class="nav-item">
-              <a class="nav-link mx-2" href="/services">
-                Services
-              </a>
-            </li> */}
-            {/* <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Services
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="/design">
-                    Design
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="/web-development">
-                    Web Development
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    Book a consultation
-                  </a>
-                </li>
-              </ul>
-            </li> */}
             <li class="nav-item">
               <a class="nav-link mx-2" href="/contact">
                 Contact
@@ -85,7 +51,7 @@ function NavBar() {
             <li class="nav-item ms-3">
               <a
                 class="btn btn-outline-secondary"
-                href="#"
+                href="https://drive.google.com/file/d/1C7Xux-yypJCIU5KcisPC2K_0dsFTA8_m/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
