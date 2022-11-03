@@ -21,11 +21,13 @@ function LandingHero() {
                 I love to learn new tech, and I build things that live on the
                 internet. Some of the technologies I work with are:
                 <i class="fab bi-filetype-html fs-4 text-primary">,</i>
+                <i class="bi bi-filetype-json"></i>
                 <i class="fab fa-css3-alt fs-4 text-primary">,</i>
                 <i class="fab fa-js-square fs-4 text-primary">,</i>
                 <i class="fab fa-bootstrap fs-4 text-primary">,</i>
                 <i class="fab fa-react fs-4 text-primary">,</i>
                 <i class="fab fa-node fs-4 text-primary">,</i>
+                <i class="bi bi-filetype-json fs-4 text-primary"></i>
                 <i class="fab fa-sass fs-4 text-primary">,</i>
                 <i class="fab fa-wix fs-4 text-primary">, and</i>
                 <i class="fab fa-wordpress fs-4 text-primary">.</i>
