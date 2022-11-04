@@ -1,8 +1,8 @@
 {
-  "homepage": "https://mgdevelops2.github.io/",
-  "name": "portfolio-29oct22",
-  "version": "0.1.0",
-  "private": true,
+  "name": "mgdevelops2-portfolio",
+  "homepage": "https://mgdevelops2.github.io/mgdevelops2-portfolio ",
+  "version": "2.0.0",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
