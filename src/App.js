@@ -38,11 +38,27 @@ export default function BasicExample() {
         essentially it will connect to your corresponding linked page internal 
         or external */}
         <Routes>
-          <Route exact path="/" element={<Home />}></Route>
+          <Route
+            exact
+            path="/mgdevelops2-portfolio/"
+            element={<Home />}
+          ></Route>
           {/* <Route exact path="/blog" element={<Blog />}></Route> */}
-          <Route exact path="/portfolio" element={<Portfolio />}></Route>
-          <Route exact path="/services" element={<Services />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
+          <Route
+            exact
+            path="/mgdevelops2-portfolio/portfolio"
+            element={<Portfolio />}
+          ></Route>
+          <Route
+            exact
+            path="/mgdevelops2-portfolio/services"
+            element={<Services />}
+          ></Route>
+          <Route
+            exact
+            path="/mgdevelops2-portfolio/contact"
+            element={<Contact />}
+          ></Route>
         </Routes>
 
         {/* Adding Footer */}
