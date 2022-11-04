@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // This site holds the pages you add, all of which are rendered
 // dynamically in the browser (not server rendered).
@@ -20,7 +20,7 @@ import Portfolio from "./Components/Portfolio/Portfolio";
 import Services from "./Components/Services/Services";
 import Contact from "./Components/Contact/Contact";
 
-export default function BasicExample() {
+function App() {
   return (
     <Router>
       {/* main div */}
@@ -38,27 +38,11 @@ export default function BasicExample() {
         essentially it will connect to your corresponding linked page internal 
         or external */}
         <Routes>
-          <Route
-            exact
-            path="/mgdevelops2-portfolio/"
-            element={<Home />}
-          ></Route>
+          <Route exact path="/" element={<Home />}></Route>
           {/* <Route exact path="/blog" element={<Blog />}></Route> */}
-          <Route
-            exact
-            path="/mgdevelops2-portfolio/portfolio"
-            element={<Portfolio />}
-          ></Route>
-          <Route
-            exact
-            path="/mgdevelops2-portfolio/services"
-            element={<Services />}
-          ></Route>
-          <Route
-            exact
-            path="/mgdevelops2-portfolio/contact"
-            element={<Contact />}
-          ></Route>
+          <Route exact path="/portfolio" element={<Portfolio />}></Route>
+          <Route exact path="/services" element={<Services />}></Route>
+          <Route exact path="/contact" element={<Contact />}></Route>
         </Routes>
 
         {/* Adding Footer */}
@@ -67,3 +51,5 @@ export default function BasicExample() {
     </Router>
   );
 }
+
+export default App;
