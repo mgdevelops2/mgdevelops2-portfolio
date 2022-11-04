@@ -29,7 +29,7 @@ function NavBar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto align-items-center">
             <li class="nav-item">
-              <a class="nav-link mx-2" href="/">
+              <a class="nav-link mx-2" href="/mgdevelops2-portfolio/">
                 Home
               </a>
             </li>
@@ -39,12 +39,12 @@ function NavBar() {
               </a>
             </li> */}
             <li class="nav-item">
-              <a class="nav-link mx-2" href="/portfolio">
+              <a class="nav-link mx-2" href="/mgdevelops2-portfolio/portfolio">
                 Portfolio
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mx-2" href="/contact">
+              <a class="nav-link mx-2" href="/mgdevelops2-portfolio/contact">
                 Contact
               </a>
             </li>
