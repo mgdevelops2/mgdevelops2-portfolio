@@ -2,7 +2,7 @@ import Showcase from "./Showcase";
 function Home() {
   return (
     <main class="container my-5">
-      <Showcase />
+      {/* <Showcase /> */}
       <div class="container marketing">
         {/* <!-- START THE FEATURETTES --> */}
         {/* Left side image example */}

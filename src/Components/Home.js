@@ -11,7 +11,7 @@ function Home() {
       {/* // add your HTML elements in here - must be inside of a div or some form
       of container */}
       <LandingHero />
-      <Showcase />
+      {/* <Showcase /> */}
     </div>
   );
 }
